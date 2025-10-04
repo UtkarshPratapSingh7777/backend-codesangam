@@ -1,3 +1,3 @@
-const JWT_SECRET="UtkarshPratapSingh";
-const MONGODB_URL="mongodb+srv://Utkarshpsingh007:Utkarsh11092007@projectscluster.mlconfz.mongodb.net/CodeCarnival";
+const JWT_SECRET=YOUR JWT SECRET
+const MONGODB_URL=YOUR MONGODB URL
 module.exports={JWT_SECRET,MONGODB_URL};
