@@ -45,17 +45,14 @@ As the circus travels, infrastructure issues (like road damage, water leakage, a
 caravan-chronicle/
 │
 ├── backend/
-│   ├── src/
-│   │   ├── config/            # DB, JWT, environment configs
-│   │   ├── controllers/       # Complaint, user, report logic
-│   │   ├── middleware/        # Auth, error handling
-│   │   ├── models/            # DB schemas (User, Complaint, TicketLog)
-│   │   ├── routes/            # API routes (auth, complaints, reports)
-│   │   ├── services/          # Email, file upload, PDF export
-│   │   ├── utils/             # Validators, helpers
-│   │   └── app.js             # Express app entry
-│   ├── tests/                 # Backend unit/integration tests
-│   └── package.json
+│   ├── index.js
+│   ├── config.js
+│   ├── middleware/
+│   ├── models/
+│   ├── routes/
+│   ├── utils/
+│   ├── package.json
+│   └── package-lock.json
 │
 ├── frontend/
 │   ├── public/                # Static files

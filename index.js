@@ -6,9 +6,9 @@ const Citizenrouter=require("./routes/citizen");
 const Staffrouter=require("./routes/staff");
 const Adminrouter=require("./routes/admin");
 const Complaintrouter=require("./routes/complaint");
-
+const cors=require("cors");
 app.use(express.json());
-
+app.use(cors());
 // Connect to MongoDB
 mongoose.connect(MONGODB_URL, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(()=> console.log("Connected to MongoDB"))
